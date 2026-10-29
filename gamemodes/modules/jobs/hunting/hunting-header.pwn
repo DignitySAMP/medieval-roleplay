@@ -1,0 +1,5 @@
+#include "modules/jobs/hunting/hunting-data.pwn"
+#include "modules/jobs/hunting/hunting.pwn"
+#include "modules/jobs/hunting/hunting-traps.pwn"
+#include "modules/jobs/hunting/hunting-dev.pwn"
+#include "modules/jobs/hunting/hunting-main.pwn"

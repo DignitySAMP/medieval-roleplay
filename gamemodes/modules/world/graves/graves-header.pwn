@@ -1,0 +1,8 @@
+#include "modules/world/graves/graves-data.pwn"
+#include "modules/world/graves/graves-seeds.pwn"
+#include "modules/world/graves/graves.pwn"
+#include "modules/world/graves/graves-crypt.pwn"
+#include "modules/world/graves/graves-funeral.pwn"
+#include "modules/world/graves/graves-visit.pwn"
+#include "modules/world/graves/graves-dev.pwn"
+#include "modules/world/graves/graves-main.pwn"

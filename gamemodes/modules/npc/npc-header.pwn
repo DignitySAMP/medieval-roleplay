@@ -1,0 +1,8 @@
+#include "modules/npc/walkers/walkers-header.pwn"
+#include "modules/npc/routine/routine-header.pwn"
+#include "modules/npc/actors/actors-header.pwn"
+#include "modules/npc/riders/riders-header.pwn"
+#include "modules/npc/animals/animals-header.pwn"
+#include "modules/npc/families/families-header.pwn"
+#include "modules/npc/dialogue/dialogue-header.pwn"
+#include "modules/npc/market-visitors/market-visitors-header.pwn"

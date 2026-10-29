@@ -1,0 +1,7 @@
+#include "modules/games/table/table-data.pwn"
+#include "modules/games/table/table-regulars.pwn"
+#include "modules/games/table/table.pwn"
+#include "modules/games/table/table-invite.pwn"
+#include "modules/games/table/table-world.pwn"
+#include "modules/games/table/table-dev.pwn"
+#include "modules/games/table/table-main.pwn"

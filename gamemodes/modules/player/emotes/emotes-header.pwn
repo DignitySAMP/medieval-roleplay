@@ -1,0 +1,7 @@
+#include "modules/player/emotes/emotes-data.pwn"
+#include "modules/player/emotes/emotes.pwn"
+#include "modules/player/emotes/emotes-paired.pwn"
+#include "modules/player/emotes/emotes-perform.pwn"
+#include "modules/player/emotes/emotes-commands.pwn"
+#include "modules/player/emotes/emotes-dev.pwn"
+#include "modules/player/emotes/emotes-main.pwn"

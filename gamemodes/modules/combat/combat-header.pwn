@@ -1,0 +1,7 @@
+#include "modules/combat/combat-data.pwn"
+#include "modules/combat/combat-equip.pwn"
+#include "modules/combat/combat-mode.pwn"
+#include "modules/combat/combat-attack.pwn"
+#include "modules/combat/combat-block.pwn"
+#include "modules/combat/combat-struck.pwn"
+#include "modules/combat/combat-main.pwn"

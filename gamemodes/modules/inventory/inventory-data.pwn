@@ -1,0 +1,71 @@
+#define ITEM_NAME_LEN (32)
+#define INVENTORY_SLOTS (18)
+#define INVENTORY_ROW_PENDING (-1)
+#define INVENTORY_STACK_MAX (5)
+#define COIN_STACK_MAX (100)
+#define ITEM_STARS_MIN (1)
+#define ITEM_STARS_MAX (5)
+#define ITEM_STARS_ANY (0)
+#define ITEM_FRESH_NOW (-1)
+#define ITEM_WEAR_MAX (100)
+#define ITEM_GROUP_MAX (128)
+#define ITEM_CONTAINER_MODEL (1550)
+#define ITEM_SHIELD_PRICE (48)
+#define ITEM_WEAPON_TYPE_COUNT (10)
+
+enum E_ITEM_KIND
+{
+	ITEM_KIND_WEAPON,
+	ITEM_KIND_SHIELD,
+	ITEM_KIND_FOOD,
+	ITEM_KIND_DRINK,
+	ITEM_KIND_TOOL,
+	ITEM_KIND_MISC,
+	ITEM_KIND_COIN,
+	ITEM_KIND_CONTAINER,
+	ITEM_KIND_MATERIAL,
+	ITEM_KIND_CLOTHING,
+	ITEM_KIND_COUNT,
+}
+
+enum E_ITEM_DEF
+{
+	E_ITEM_KIND:E_ITEM_DEF_KIND,
+	E_ITEM_DEF_NAME[ITEM_NAME_LEN],
+	E_ITEM_DEF_MODEL,
+	E_ITEM_DEF_VALUE,
+	E_ITEM_DEF_PRICE,
+	bool:E_ITEM_DEF_STACKS,
+}
+
+enum
+{
+	COIN_PFENNIG = 0,
+	COIN_GROSCHEN,
+	COIN_GULDEN,
+	COIN_TIER_COUNT,
+}
+
+enum E_COIN_DEF
+{
+	E_COIN_DEF_NAME[ITEM_NAME_LEN],
+	E_COIN_DEF_WORTH,
+	E_COIN_DEF_MODEL,
+	E_COIN_DEF_DFF[24],
+}
+
+#define ITEM_COIN_TXD "items/coins.txd"
+#define ITEM_PORTION_VALUE (15)
+#define ITEM_PORTIONS_MAX (4)
+#define ITEM_WATER_SKIN_MODEL (-28004)
+#define ITEM_WATER_SKIN_DFF "items/water_skin.dff"
+#define ITEM_WATER_SKIN_TXD "items/water_skin.txd"
+
+new const g_CoinDefs[COIN_TIER_COUNT][E_COIN_DEF] = {
+	{"Pfennig", 1, -28001, "items/coin_pfennig.dff"},
+	{"Groschen", 12, -28002, "items/coin_groschen.dff"},
+	{"Gulden", 240, -28003, "items/coin_gulden.dff"}
+};
+
+new const g_ItemStarPricePercent[ITEM_STARS_MAX + 1] = {100, 100, 130, 170, 220, 300};
+new const g_WeaponTypePrice[ITEM_WEAPON_TYPE_COUNT] = {480, 240, 300, 36, 30, 360, 48, 60, 360, 12};

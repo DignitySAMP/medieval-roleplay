@@ -1,0 +1,8 @@
+#include "modules/mounts/mounts-data.pwn"
+#include "modules/mounts/mounts-attach.pwn"
+#include "modules/mounts/mounts-horse.pwn"
+#include "modules/mounts/mounts-joust.pwn"
+#include "modules/mounts/mounts-ride.pwn"
+#include "modules/mounts/mounts-interaction.pwn"
+#include "modules/mounts/mounts-dev.pwn"
+#include "modules/mounts/mounts-main.pwn"

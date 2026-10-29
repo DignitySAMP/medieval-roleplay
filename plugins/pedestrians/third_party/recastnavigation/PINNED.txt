@@ -1,0 +1,4 @@
+recastnavigation v1.6.0
+commit 6dc1667f580357e8a2154c28b7867bea7e8ad3a7
+https://github.com/recastnavigation/recastnavigation (zlib licence, see License.txt)
+Trimmed: .git, RecastDemo, Docs, Tests removed.

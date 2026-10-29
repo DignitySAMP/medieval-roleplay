@@ -1,0 +1,6 @@
+#include "modules/character/culture/culture-data.pwn"
+#include "modules/character/culture/culture-ways.pwn"
+#include "modules/character/culture/culture-unlocks.pwn"
+#include "modules/character/culture/culture-language.pwn"
+#include "modules/character/culture/culture-gui.pwn"
+#include "modules/character/culture/culture-main.pwn"

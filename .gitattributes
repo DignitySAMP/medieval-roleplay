@@ -1,0 +1,9 @@
+*.so binary
+*.dff binary
+*.txd binary
+*.col binary
+*.cadb binary
+*.bin binary
+*.bmp binary
+*.jpg binary
+omp-server binary

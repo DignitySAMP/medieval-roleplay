@@ -1,0 +1,8 @@
+#include "modules/games/dice/dice-data.pwn"
+#include "modules/games/dice/dice-rules.pwn"
+#include "modules/games/dice/dice-game.pwn"
+#include "modules/games/dice/dice-gui.pwn"
+#include "modules/games/dice/dice-world.pwn"
+#include "modules/games/dice/dice-npc.pwn"
+#include "modules/games/dice/dice-dev.pwn"
+#include "modules/games/dice/dice-main.pwn"

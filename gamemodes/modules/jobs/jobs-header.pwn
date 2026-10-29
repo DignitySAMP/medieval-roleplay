@@ -1,0 +1,5 @@
+#include "modules/jobs/jobs-data.pwn"
+#include "modules/jobs/jobs-recipes.pwn"
+#include "modules/jobs/jobs-scenes.pwn"
+#include "modules/jobs/talents/talents-header.pwn"
+#include "modules/jobs/jobs-main.pwn"

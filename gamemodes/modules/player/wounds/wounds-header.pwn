@@ -1,0 +1,7 @@
+#include "modules/player/wounds/wounds-data.pwn"
+#include "modules/player/wounds/wounds.pwn"
+#include "modules/player/wounds/wounds-blood.pwn"
+#include "modules/player/wounds/wounds-limp.pwn"
+#include "modules/player/wounds/wounds-gui.pwn"
+#include "modules/player/wounds/wounds-dev.pwn"
+#include "modules/player/wounds/wounds-main.pwn"

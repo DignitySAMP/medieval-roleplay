@@ -1,0 +1,29 @@
+#define HORSE_SEED_STABLES (3)
+#define HORSE_SEED_MEADOWS (2)
+#define HORSE_MEADOW_SPOTS (4)
+
+enum E_HORSE_STABLE_DEF
+{
+	E_HORSE_STABLE_DEF_NAME[28],
+	Float:E_HORSE_STABLE_DEF_KEEPER[4],
+	Float:E_HORSE_STABLE_DEF_HITCH[4],
+	bool:E_HORSE_STABLE_DEF_TRADES,
+}
+
+new const g_HorseStableDefs[3][E_HORSE_STABLE_DEF] = {
+	{"the outer stable", {724.000, -2882.000, 27.000, 0.0}, {727.346, -2878.284, 26.882, 228.0}, true},
+	{"the ducal stable", {1187.045, -2798.945, 124.003, 60.0}, {1192.045, -2798.945, 124.003, 180.0}, false},
+	{"the Talmberg horse yard", {1020.115, -3396.220, 63.818, 0.0}, {1024.683, -3394.187, 62.525, 204.0}, true}
+};
+
+enum E_HORSE_MEADOW_DEF
+{
+	E_HORSE_MEADOW_DEF_NAME[28],
+	E_HORSE_MEADOW_DEF_COUNT,
+	Float:E_HORSE_MEADOW_DEF_SPOTS[HORSE_MEADOW_SPOTS * 4],
+}
+
+new const g_HorseMeadowDefs[2][E_HORSE_MEADOW_DEF] = {
+	{"the low meadow", 4, {700.000, -3425.000, 17.714, 90.0, 701.350, -3419.154, 17.405, 257.0, 694.033, -3424.373, 17.659, 354.0, 698.047, -3430.673, 17.741, 71.0}},
+	{"the high meadow", 4, {1000.000, -3600.000, 74.285, 90.0, 1001.350, -3594.154, 74.250, 257.0, 994.033, -3599.373, 74.275, 354.0, 998.047, -3605.673, 74.311, 71.0}}
+};

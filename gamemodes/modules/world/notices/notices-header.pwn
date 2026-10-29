@@ -1,0 +1,5 @@
+#include "modules/world/notices/notices-data.pwn"
+#include "modules/world/notices/notices.pwn"
+#include "modules/world/notices/notices-gui.pwn"
+#include "modules/world/notices/notices-dev.pwn"
+#include "modules/world/notices/notices-main.pwn"

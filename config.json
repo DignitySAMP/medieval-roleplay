@@ -1,0 +1,54 @@
+{
+    "name": "[ENG] Medieval Roleplay",
+    "announce": false,
+    "max_players": 150,
+    "max_bots": 50,
+    "rcon": {
+        "allow_teleport": false,
+        "enable": true,
+        "password": "set-at-boot"
+    },
+    "pawn": {
+        "main_scripts": [
+            "mrp 1"
+        ],
+        "legacy_plugins": [
+            "crashdetect",
+            "PawnPlus",
+            "streamer",
+            "mysql",
+            "samp_bcrypt",
+            "json",
+            "filemanager"
+        ]
+    },
+    "network": {
+        "acks_limit": 10000,
+        "allow_037_clients": false
+    },
+    "sleep": 5.0,
+    "use_dyn_ticks": true,
+    "website": "",
+    "language": "English",
+    "game": {
+        "lag_compensation_mode": 1,
+        "map": "San Andreas",
+        "mode": "Medieval Roleplay"
+    },
+    "artwork": {
+        "enable": true,
+        "models_path": "models",
+        "web_server_bind": "0.0.0.0",
+        "cdn": ""
+    },
+    "banners": {
+        "dark": "",
+        "light": ""
+    },
+    "logo": "",
+    "discord": {
+        "invite": ""
+    },
+    "chat_input_filter": true,
+    "enable_query": true
+}

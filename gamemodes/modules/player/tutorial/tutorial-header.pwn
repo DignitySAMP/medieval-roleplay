@@ -1,0 +1,6 @@
+#include "modules/player/tutorial/tutorial-palisade.pwn"
+#include "modules/player/tutorial/tutorial-island.pwn"
+#include "modules/player/tutorial/tutorial.pwn"
+#include "modules/player/tutorial/tutorial-gui.pwn"
+#include "modules/player/tutorial/tutorial-boon.pwn"
+#include "modules/player/tutorial/tutorial-main.pwn"

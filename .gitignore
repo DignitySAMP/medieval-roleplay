@@ -1,0 +1,9 @@
+dependencies/
+*.amx
+mysql.ini
+server.cfg
+*.log
+log.txt
+crashinfo.txt
+scriptfiles/logs/*
+!scriptfiles/logs/.gitkeep

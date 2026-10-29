@@ -1,0 +1,6 @@
+#include "modules/world/fire/fire-seeds.pwn"
+#include "modules/world/fire/fire-data.pwn"
+#include "modules/world/fire/fire.pwn"
+#include "modules/world/fire/fire-water.pwn"
+#include "modules/world/fire/fire-dev.pwn"
+#include "modules/world/fire/fire-main.pwn"

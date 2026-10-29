@@ -1,0 +1,8 @@
+#include "modules/games/cards/cards-data.pwn"
+#include "modules/games/cards/cards-rules.pwn"
+#include "modules/games/cards/cards-game.pwn"
+#include "modules/games/cards/cards-gui.pwn"
+#include "modules/games/cards/cards-world.pwn"
+#include "modules/games/cards/cards-npc.pwn"
+#include "modules/games/cards/cards-dev.pwn"
+#include "modules/games/cards/cards-main.pwn"

@@ -1,0 +1,297 @@
+{
+	"version": 1,
+	"generated": "2026-10-29T21:16:45.545267426Z",
+	"sampctl_version": "1.14.0",
+	"dependencies": {
+		"github.com/AGraber/pawn-plus-mysql": {
+			"constraint": ":1.0.3",
+			"resolved": "1.0.3",
+			"commit": "c66a3469871677b90b03d03b086561be63116d09",
+			"integrity": "commit:c66a3469871677b90b03d03b086561be63116d09",
+			"site": "github.com",
+			"user": "AGraber",
+			"repo": "pawn-plus-mysql"
+		},
+		"github.com/IS4Code/PawnPlus": {
+			"constraint": ":v1.5.3",
+			"resolved": "v1.5.3",
+			"commit": "84d4c98def99657e261715da084318a486505813",
+			"integrity": "commit:84d4c98def99657e261715da084318a486505813",
+			"site": "github.com",
+			"user": "IS4Code",
+			"repo": "PawnPlus"
+		},
+		"github.com/JaTochNietDan/SA-MP-FileManager": {
+			"constraint": ":1.5.1",
+			"resolved": "1.5.1",
+			"commit": "06998ad4d0f1d2e1e068f44bf5358c87f77d01e6",
+			"integrity": "commit:06998ad4d0f1d2e1e068f44bf5358c87f77d01e6",
+			"site": "github.com",
+			"user": "JaTochNietDan",
+			"repo": "SA-MP-FileManager"
+		},
+		"github.com/Southclaws/pawn-json": {
+			"constraint": ":1.4.1",
+			"resolved": "1.4.1",
+			"commit": "7b1a40e1a8e48aa542b732fa209b2bbcb0adceaa",
+			"integrity": "commit:7b1a40e1a8e48aa542b732fa209b2bbcb0adceaa",
+			"site": "github.com",
+			"user": "Southclaws",
+			"repo": "pawn-json"
+		},
+		"github.com/Sreyas-Sreelal/samp-bcrypt": {
+			"constraint": ":0.4.1",
+			"resolved": "0.4.1",
+			"commit": "c60e68d483a95d109855fdd7517425c0363fd10c",
+			"integrity": "commit:c60e68d483a95d109855fdd7517425c0363fd10c",
+			"site": "github.com",
+			"user": "Sreyas-Sreelal",
+			"repo": "samp-bcrypt"
+		},
+		"github.com/TommyB123/samp-map-parser": {
+			"constraint": "#440d27a4bff4061dca27108f279de98571413261",
+			"resolved": "440d27a4",
+			"commit": "440d27a4bff4061dca27108f279de98571413261",
+			"integrity": "commit:440d27a4bff4061dca27108f279de98571413261",
+			"site": "github.com",
+			"user": "TommyB123",
+			"repo": "samp-map-parser"
+		},
+		"github.com/Y-Less/sscanf": {
+			"constraint": ":v2.13.8",
+			"resolved": "v2.13.8",
+			"commit": "143f301ac6b30e6855ff14d57fd0bd1c909c6891",
+			"integrity": "commit:143f301ac6b30e6855ff14d57fd0bd1c909c6891",
+			"site": "github.com",
+			"user": "Y-Less",
+			"repo": "sscanf"
+		},
+		"github.com/YashasSamaga/SmartCMD": {
+			"constraint": "#50fa082b62f613579588477ef4b5abb837e33f7c",
+			"resolved": "50fa082b",
+			"commit": "50fa082b62f613579588477ef4b5abb837e33f7c",
+			"integrity": "commit:50fa082b62f613579588477ef4b5abb837e33f7c",
+			"site": "github.com",
+			"user": "YashasSamaga",
+			"repo": "SmartCMD"
+		},
+		"github.com/katursis/Pawn.RakNet": {
+			"constraint": ":1.6.0-omp",
+			"resolved": "1.6.0-omp",
+			"commit": "d2fef5af377ad090dd47908e13f170da33983119",
+			"integrity": "commit:d2fef5af377ad090dd47908e13f170da33983119",
+			"site": "github.com",
+			"user": "katursis",
+			"repo": "Pawn.RakNet"
+		},
+		"github.com/kristoisberg/pawn-colour-manipulation": {
+			"constraint": "#be746e932b5a73a8bc4a25f7508dafdcacfa9e07",
+			"resolved": "be746e93",
+			"commit": "be746e932b5a73a8bc4a25f7508dafdcacfa9e07",
+			"integrity": "commit:be746e932b5a73a8bc4a25f7508dafdcacfa9e07",
+			"site": "github.com",
+			"user": "kristoisberg",
+			"repo": "pawn-colour-manipulation"
+		},
+		"github.com/kristoisberg/samp-td-streamer": {
+			"constraint": "#5d7ed570e4b6f04754cd5e2a27d7856acb8dad50",
+			"resolved": "5d7ed570",
+			"commit": "5d7ed570e4b6f04754cd5e2a27d7856acb8dad50",
+			"integrity": "commit:5d7ed570e4b6f04754cd5e2a27d7856acb8dad50",
+			"site": "github.com",
+			"user": "kristoisberg",
+			"repo": "samp-td-streamer"
+		},
+		"github.com/openmultiplayer/omp-stdlib": {
+			"constraint": "#689c824f6cc558b1ca1b36cfd1aae7f1cda16d65",
+			"resolved": "689c824f",
+			"commit": "689c824f6cc558b1ca1b36cfd1aae7f1cda16d65",
+			"integrity": "commit:689c824f6cc558b1ca1b36cfd1aae7f1cda16d65",
+			"site": "github.com",
+			"user": "openmultiplayer",
+			"repo": "omp-stdlib"
+		},
+		"github.com/oscar-broman/strlib": {
+			"constraint": "#d48c74a65f03131381404fdc8e64873384e4c9b8",
+			"resolved": "d48c74a6",
+			"commit": "d48c74a65f03131381404fdc8e64873384e4c9b8",
+			"integrity": "commit:d48c74a65f03131381404fdc8e64873384e4c9b8",
+			"site": "github.com",
+			"user": "oscar-broman",
+			"repo": "strlib"
+		},
+		"github.com/pawn-lang/pawn-stdlib": {
+			"constraint": "@open.mp",
+			"resolved": "open.mp",
+			"commit": "2fbfadd53112c508f58982a52c8c7c0332c46be8",
+			"integrity": "commit:2fbfadd53112c508f58982a52c8c7c0332c46be8",
+			"site": "github.com",
+			"user": "pawn-lang",
+			"repo": "pawn-stdlib",
+			"branch": "open.mp"
+		},
+		"github.com/pawn-lang/samp-stdlib": {
+			"constraint": "@open.mp",
+			"resolved": "open.mp",
+			"commit": "dce9af6d16c8b8ec2d38ac78a30a8c9daa3665e5",
+			"integrity": "commit:dce9af6d16c8b8ec2d38ac78a30a8c9daa3665e5",
+			"site": "github.com",
+			"user": "pawn-lang",
+			"repo": "samp-stdlib",
+			"branch": "open.mp"
+		},
+		"github.com/samp-incognito/samp-streamer-plugin": {
+			"constraint": ":v2.9.6",
+			"resolved": "v2.9.6",
+			"commit": "afca207b148da6e0dea03693042a1e9665457403",
+			"integrity": "commit:afca207b148da6e0dea03693042a1e9665457403",
+			"site": "github.com",
+			"user": "samp-incognito",
+			"repo": "samp-streamer-plugin"
+		}
+	},
+	"runtime": {
+		"version": "openmp",
+		"platform": "linux",
+		"runtime_type": "",
+		"files": [
+			{
+				"path": "components/Actors.so",
+				"size": 1318084,
+				"hash": "3126caf19e405d606a340d1e84eb273f97db96f19910fbdc891302b04083850c",
+				"mode": 448
+			},
+			{
+				"path": "components/Checkpoints.so",
+				"size": 982212,
+				"hash": "0efca46769f74e04661971d385979fa96851ca33183d2bf6546849ce805ce74e",
+				"mode": 448
+			},
+			{
+				"path": "components/Classes.so",
+				"size": 1162796,
+				"hash": "d34299d3305113145a91bd12b5d06bc6478b4564971e67a9f133936fcee1c769",
+				"mode": 448
+			},
+			{
+				"path": "components/Console.so",
+				"size": 3182756,
+				"hash": "a2d4dbfea361d954661245408eaf7d35fbc21598c77387ca8410ea1924e921d6",
+				"mode": 448
+			},
+			{
+				"path": "components/CustomModels.so",
+				"size": 6582044,
+				"hash": "34d7441f8a880f3982411e1583d23928f8a2670d6c13bf167bf2669024eceac9",
+				"mode": 448
+			},
+			{
+				"path": "components/Databases.so",
+				"size": 6832336,
+				"hash": "d665f669c90fe281ee14894c34b7262a02d75b6edfa1b4d37eac57c5205c9e75",
+				"mode": 448
+			},
+			{
+				"path": "components/Dialogs.so",
+				"size": 1046576,
+				"hash": "a3eb8bd8eb7988975045e47106c7f4ed744db93fbe9e97615e5b47effae511ba",
+				"mode": 448
+			},
+			{
+				"path": "components/GangZones.so",
+				"size": 1268540,
+				"hash": "24820439046b40f64378de25e2a32ed32eec6e7a9ab1ffcd59fafde365b32dd0",
+				"mode": 448
+			},
+			{
+				"path": "components/LegacyConfig.so",
+				"size": 2458868,
+				"hash": "68d8e4be48f696f6d8ec5bd09b547b2a52beaf05a25330b9570b3244c6c25e98",
+				"mode": 448
+			},
+			{
+				"path": "components/LegacyNetwork.so",
+				"size": 11441632,
+				"hash": "32a26f9e58af35462d7a86a276868979c073e2cd58bdce98b153261c847f7f2b",
+				"mode": 448
+			},
+			{
+				"path": "components/Menus.so",
+				"size": 1307624,
+				"hash": "fd7b511723067ce26ff54e0fba6d474323f284a066f2735d19cae3727af8d6bc",
+				"mode": 448
+			},
+			{
+				"path": "components/NPCs.so",
+				"size": 8985692,
+				"hash": "3118630b622d92d1229f6e5cb7375a42fcb8a36147f6ee8027b2f3424321e0b8",
+				"mode": 448
+			},
+			{
+				"path": "components/Objects.so",
+				"size": 1987316,
+				"hash": "46d0030d29f236024b4e6823ba245163d9dcad74bec1dde53c0c09efb6290c44",
+				"mode": 448
+			},
+			{
+				"path": "components/Pawn.so",
+				"size": 20111716,
+				"hash": "a1b3b450c773a87ce68872b0f882f0badd1714d2929009dba1733726c0195bfa",
+				"mode": 448
+			},
+			{
+				"path": "components/Pickups.so",
+				"size": 1270152,
+				"hash": "c2ef3090372be53ec5d30904a46b1af68a8acd7cba6fd1ce2aecbd559d3afcdd",
+				"mode": 448
+			},
+			{
+				"path": "components/Recordings.so",
+				"size": 2648468,
+				"hash": "81b2e0a3219c0aa35b652680bd96b476cd30b9988d616a3be3271aaf64fbe802",
+				"mode": 448
+			},
+			{
+				"path": "components/TextDraws.so",
+				"size": 1490164,
+				"hash": "c305fd9c4d792a795fe4b9647869d01ecf33da61854602dd2a6b736279f39d0c",
+				"mode": 448
+			},
+			{
+				"path": "components/TextLabels.so",
+				"size": 1387232,
+				"hash": "d0d04e380c2519951b64908a5a7460f00b1b80ba039f56cbe6afccf9a4a961e2",
+				"mode": 448
+			},
+			{
+				"path": "components/Timers.so",
+				"size": 637440,
+				"hash": "7d94933ae0af8ccc1f70f3c9ecbdd1a14c90c78ba82d07850adeaa564fe2d1c2",
+				"mode": 448
+			},
+			{
+				"path": "components/Variables.so",
+				"size": 803456,
+				"hash": "4f8f53367dab66596c75ff136adc6ee4697d7ce9c2b996aea003a604cabdd86a",
+				"mode": 448
+			},
+			{
+				"path": "components/Vehicles.so",
+				"size": 1854284,
+				"hash": "acd85d597d8b9fcb7b67ddef83c9b10b45965306883aa6ef863a857e017a2dae",
+				"mode": 448
+			},
+			{
+				"path": "omp-server",
+				"size": 29327552,
+				"hash": "4c402c280168447b841b862386ccc1bc1fd3126cfaad3481be493d84a04689ff",
+				"mode": 448
+			}
+		]
+	},
+	"build": {
+		"compiler_version": "3.10.11",
+		"entry": "gamemodes/mrp.pwn",
+		"output": "gamemodes/mrp.amx"
+	}
+}

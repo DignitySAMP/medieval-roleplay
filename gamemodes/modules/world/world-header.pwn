@@ -1,0 +1,8 @@
+#include "modules/world/models/models-header.pwn"
+#include "modules/world/map/map-header.pwn"
+#include "modules/world/registry/registry-header.pwn"
+#include "modules/world/attach/attach-header.pwn"
+#include "modules/world/placement/placement-header.pwn"
+#include "modules/world/falling/falling-header.pwn"
+#include "modules/world/crier/crier-header.pwn"
+#include "modules/world/market/market-header.pwn"

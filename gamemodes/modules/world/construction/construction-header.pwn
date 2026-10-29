@@ -1,0 +1,5 @@
+#include "modules/world/construction/construction-data.pwn"
+#include "modules/world/construction/construction.pwn"
+#include "modules/world/construction/construction-site.pwn"
+#include "modules/world/construction/construction-dev.pwn"
+#include "modules/world/construction/construction-main.pwn"

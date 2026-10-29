@@ -1,0 +1,6 @@
+#include "modules/economy/trader/trader-data.pwn"
+#include "modules/economy/trader/trader-seeds.pwn"
+#include "modules/economy/trader/trader.pwn"
+#include "modules/economy/trader/trader-gui.pwn"
+#include "modules/economy/trader/trader-dev.pwn"
+#include "modules/economy/trader/trader-main.pwn"

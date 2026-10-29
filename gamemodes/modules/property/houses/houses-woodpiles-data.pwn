@@ -1,0 +1,58 @@
+#define HOUSE_WOODPILE_COUNT (46)
+#define HOUSE_WOODPILE_PILE_Z (0.422)
+
+enum E_HOUSE_WOODPILE_DEF
+{
+	E_HOUSE_WOODPILE_DEF_HOUSE[16],
+	Float:E_HOUSE_WOODPILE_DEF_POS[4],
+	bool:E_HOUSE_WOODPILE_DEF_SMALL,
+}
+
+new const g_HouseWoodpileDefs[HOUSE_WOODPILE_COUNT][E_HOUSE_WOODPILE_DEF] = {
+	{"c3_hamlet10", {-2.765, 6.805, 0.000, 0.0}, true},
+	{"c3_hamlet7", {3.115, 6.405, 0.000, 0.0}, false},
+	{"c3_hamlet8", {3.805, 1.815, 0.000, 270.0}, false},
+	{"c3_hamlet9", {-1.285, 6.805, 0.000, 0.0}, false},
+	{"c3_hamlet9", {4.115, 6.805, 3.600, 0.0}, false},
+	{"c3_house1", {-1.485, 6.805, 0.000, 0.0}, false},
+	{"c3_house2", {0.435, 7.005, 0.000, 0.0}, true},
+	{"c3_house3", {-1.185, 7.605, 0.000, 0.0}, false},
+	{"c3_house4", {-3.605, 5.235, 0.000, 90.0}, true},
+	{"c3_house5", {-3.085, 1.195, 0.000, 180.0}, false},
+	{"c3_house6", {0.715, 6.405, 0.000, 0.0}, false},
+	{"c3_miller", {-1.985, 8.405, 0.000, 0.0}, false},
+	{"c4_farm1", {-0.385, 7.205, 0.000, 0.0}, false},
+	{"c4_farm2", {4.405, 2.735, 0.000, 270.0}, true},
+	{"df_house0", {-4.405, 7.035, 0.000, 90.0}, true},
+	{"df_house1", {-4.005, 2.915, 0.000, 90.0}, false},
+	{"df_house2", {-4.005, 1.315, 0.000, 90.0}, false},
+	{"df_house3", {-4.005, 3.115, 0.000, 90.0}, false},
+	{"df_mtn_tavern", {3.715, 8.805, 0.000, 0.0}, false},
+	{"tb_baker", {-0.865, 7.005, 0.000, 0.0}, true},
+	{"tb_brewer", {-2.765, 7.805, 0.000, 0.0}, true},
+	{"tb_carpenter", {-4.405, 2.835, 0.000, 90.0}, true},
+	{"tb_cooper", {-2.985, 6.405, 0.000, 0.0}, false},
+	{"tb_crofter", {-6.405, 5.800, 0.000, 90.0}, true},
+	{"tb_herdsman", {3.215, 6.405, 0.000, 0.0}, false},
+	{"tb_innkeeper", {5.115, 1.195, 0.000, 180.0}, false},
+	{"tb_mason", {-2.785, 7.605, 0.000, 0.0}, false},
+	{"tb_merchant", {0.915, 8.405, 0.000, 0.0}, false},
+	{"tb_orchard", {2.805, 2.315, 0.000, 270.0}, false},
+	{"tb_potter", {-3.005, 6.235, 0.000, 90.0}, true},
+	{"tb_reeve", {4.405, 1.235, 0.000, 270.0}, true},
+	{"tb_smith", {-3.205, 3.335, 0.000, 90.0}, true},
+	{"tb_tailor", {-2.165, 7.805, 0.000, 0.0}, true},
+	{"tb_weaver", {-3.605, 1.935, 0.000, 90.0}, true},
+	{"tb_woodcutter", {-3.805, 5.135, 0.000, 90.0}, true},
+	{"tb_woodcutter", {4.605, 5.635, 0.000, 270.0}, true},
+	{"tb_woodcutter", {4.605, 3.135, 0.000, 270.0}, true},
+	{"tb_woodcutter", {0.935, 6.605, 0.000, 0.0}, true},
+	{"v7_baker", {3.605, 7.335, 0.000, 270.0}, true},
+	{"v7_baker", {-3.605, 3.435, 0.000, 90.0}, true},
+	{"v7_carpenter", {4.005, 4.235, 0.000, 270.0}, true},
+	{"v7_crofter", {-0.965, 7.405, 0.000, 0.0}, true},
+	{"v7_reeve", {2.415, 8.805, 0.000, 0.0}, false},
+	{"v7_tavern", {-4.805, 4.315, 0.000, 90.0}, false},
+	{"v7_weaver", {-4.005, 3.735, 0.000, 90.0}, true},
+	{"v7_widow", {2.605, 6.115, 0.000, 270.0}, false}
+};

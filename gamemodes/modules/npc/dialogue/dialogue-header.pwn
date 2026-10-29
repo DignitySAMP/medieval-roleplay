@@ -1,0 +1,6 @@
+#include "modules/npc/dialogue/dialogue.pwn"
+#include "modules/npc/dialogue/dialogue-options.pwn"
+#include "modules/npc/dialogue/dialogue-answers.pwn"
+#include "modules/npc/dialogue/dialogue-gui.pwn"
+#include "modules/npc/dialogue/dialogue-dev.pwn"
+#include "modules/npc/dialogue/dialogue-main.pwn"

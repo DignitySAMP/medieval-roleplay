@@ -1,0 +1,5 @@
+#include "modules/npc/animals/animals-seeds.pwn"
+#include "modules/npc/animals/animals-data.pwn"
+#include "modules/npc/animals/animals.pwn"
+#include "modules/npc/animals/animals-dev.pwn"
+#include "modules/npc/animals/animals-main.pwn"

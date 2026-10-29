@@ -1,0 +1,6 @@
+#include "modules/npc/actors/actors-data.pwn"
+#include "modules/npc/actors/actors.pwn"
+#include "modules/npc/actors/actors-menu.pwn"
+#include "modules/npc/actors/actors-targets.pwn"
+#include "modules/npc/actors/actors-dev.pwn"
+#include "modules/npc/actors/actors-main.pwn"

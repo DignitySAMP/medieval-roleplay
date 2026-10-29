@@ -1,0 +1,103 @@
+#define ACTORS_MAX (200 + WALKERS_POOL)
+#define ACTORS_KEY_LEN (32)
+#define ACTORS_NAME_LEN (32)
+#define ACTORS_TITLE_LEN (24)
+#define ACTORS_REACH (2.2)
+#define ACTORS_ROAD_REACH (4.0)
+#define ACTORS_KEY_PRIO (KEYS_PRIO_MENU + 1)
+#define ACTORS_PROMPT_HOLD_MS (500)
+#define ACTORS_FACING_CONE (50.0)
+#define ACTORS_HEALTH (100.0)
+#define ACTORS_RESPAWN_SECONDS (1800)
+#define ACTORS_CORPSE_SECONDS (60)
+#define ACTORS_LABEL_RANGE (10.0)
+#define ACTORS_SPEECH_RANGE (12.0)
+#define ACTORS_BUBBLE_SECONDS (6)
+#define ACTORS_WITNESS_RANGE (25.0)
+#define ACTORS_FLEE_SECONDS (8)
+#define ACTORS_COWER_MS (4000)
+#define ACTORS_TICK_MS (500)
+#define ACTORS_MENU_MAX (12)
+#define ACTORS_MENU_LABEL (48)
+#define ACTORS_MENU_WIDTH (190.0)
+#define ACTORS_WALK_SPEED (1.1)
+#define ACTORS_LABEL_COLOUR (0xD8CCB2FF)
+#define ACTORS_BUBBLE_COLOUR (0xE6E6E6FF)
+#define ACTORS_REMARK_RANGE (4.0)
+#define ACTORS_REMARK_SECONDS (75)
+#define ACTORS_REMARK_CHANCE (35)
+#define ACTORS_LABEL_Z (1.15)
+#define ACTORS_LABEL_LOW_Z (0.3)
+#define ACTORS_LABEL_LYING_Z (0.1)
+#define ACTORS_BUBBLE_Z (1.45)
+#define ACTORS_PED_LIFT (1.0)
+
+enum E_ACTOR_KIND
+{
+	ACTOR_KIND_STATIC,
+	ACTOR_KIND_WALKER,
+}
+
+enum E_ACTOR_ROLE
+{
+	ACTOR_ROLE_FARMER,
+	ACTOR_ROLE_HERDER,
+	ACTOR_ROLE_WIFE,
+	ACTOR_ROLE_CHILD,
+	ACTOR_ROLE_ELDER,
+	ACTOR_ROLE_CRAFT,
+	ACTOR_ROLE_BAKER,
+	ACTOR_ROLE_INNKEEPER,
+	ACTOR_ROLE_MERCHANT,
+	ACTOR_ROLE_FORESTER,
+	ACTOR_ROLE_FISHER,
+	ACTOR_ROLE_CLERK,
+	ACTOR_ROLE_HEALER,
+	ACTOR_ROLE_MILLER,
+	ACTOR_ROLE_LABOURER,
+	ACTOR_ROLE_SERVANT,
+	ACTOR_ROLE_VILLAGER,
+	ACTOR_ROLE_TRADER,
+	ACTOR_ROLE_PRIEST,
+	ACTOR_ROLE_CRIER,
+	ACTOR_ROLE_GAOLER,
+	ACTOR_ROLE_GUARD,
+	ACTOR_ROLE_YARD_MASTER,
+	ACTOR_ROLE_STABLEHAND,
+	ACTOR_ROLE_COURIER,
+	ACTOR_ROLE_BANDIT,
+	ACTOR_ROLE_REEVE,
+	ACTOR_ROLE_BAILIFF,
+	ACTOR_ROLE_COUNT,
+}
+
+new const g_ActorRoleNames[ACTOR_ROLE_COUNT][16] = {
+	"farmer",
+	"herdsman",
+	"goodwife",
+	"child",
+	"elder",
+	"craftsman",
+	"baker",
+	"innkeeper",
+	"merchant",
+	"woodsman",
+	"fisherman",
+	"clerk",
+	"healer",
+	"miller",
+	"labourer",
+	"servant",
+	"villager",
+	"trader",
+	"priest",
+	"crier",
+	"gaoler",
+	"guard",
+	"yard master",
+	"stablehand",
+	"courier",
+	"bandit",
+	"reeve",
+	"bailiff"
+};

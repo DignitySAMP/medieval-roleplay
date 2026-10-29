@@ -1,0 +1,5 @@
+#include "modules/realm/realm-seeds.pwn"
+#include "modules/realm/realm-seat.pwn"
+#include "modules/realm/realm-gui.pwn"
+#include "modules/realm/realm-dev.pwn"
+#include "modules/realm/realm-main.pwn"
