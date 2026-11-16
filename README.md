@@ -1,4 +1,4 @@
-![Medieval Roleplay](images/banner.jpg)
+<p align="center"><img src="images/logo.png" alt="Medieval Roleplay" width="600"></p>
 
 # Medieval Roleplay
 
